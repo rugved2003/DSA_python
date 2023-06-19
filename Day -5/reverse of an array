@@ -1,0 +1,9 @@
+def reverseList(A,start,end):
+    if start >= end:
+        return
+    A[start],A[end] = A[end],A[start]
+    reverseList(A,start+1,end-1)
+    
+A = [100,23,4,5,4]
+reverseList(A,0,3)
+print(A)
