@@ -26,6 +26,6 @@ def Minstep(a,n):
             step = step +2
     return step 
     
-a = [0,-2,4]
+a = list(map(int,input("Enter the array:").split()))
 n = len(a)
 print(Minstep(a,n))
