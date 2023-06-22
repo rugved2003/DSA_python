@@ -16,6 +16,6 @@ def print_arr(arr):
     for i in range(len(arr)):
         print(arr[i],end = ' ')
 
-arr = [0,1,0,1,1,0,0,1]
+arr = list(map(int,input("Enter the array: ").split()))
 segregate0and1(arr)
 print_arr(arr)
