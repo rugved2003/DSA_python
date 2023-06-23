@@ -1,4 +1,4 @@
-n = 5
+n = int(input())
 for i in range(n):
     x = 1
     for j in range(2*n-1):
